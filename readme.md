@@ -1,5 +1,7 @@
 # Guide
 
+This project was made as a 7.5 ECTS project outside course scope, as part of obtaining a Bachelor's degree in Computer Science at the Department for Computer Science, University of Copenhagen. The main goal of the project is a created web scraper that collect Ethereum Smart Contracts from Etherscan.io, store them and interprets occurrences of copies. 
+
 ## Prerequisites and Requisites
 Prerequisites to run this program are:
 
