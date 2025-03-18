@@ -13,8 +13,7 @@ from bs4 import BeautifulSoup # to pull data out of HTML
 def getBsObject(url):
   # creating a session and defining headers and output preferences
   session = requests.Session()
-  headers = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:62.0) Gecko/20100101 Firefox/62.0",
-             "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"}
+  headers = [insert]
   # request the page given by url                         
   try:
     page = session.get(url, headers=headers)
@@ -34,8 +33,7 @@ def getBsObject(url):
 def getPage(url):
   # creating a session and defining headers and output preferences
   session = requests.Session()
-  headers = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:62.0) Gecko/20100101 Firefox/62.0",
-             "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"}
+  headers = [insert]
   # request the page given by url                         
   try:
     page = session.get(url, headers=headers)
