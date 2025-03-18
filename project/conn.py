@@ -4,8 +4,8 @@ import pymysql  # to use MySQL
 def makeConnection():
   localhost = "127.0.0.1"       # IP-address of the db server
   socket = "/tmp/mysql.sock"    # socket path
-  usr = "root"                  # username for the db
-  psswrd = "F0rPr0j3ct5.."      # user password
+  usr = "[insert]"              # username for the db
+  psswrd = "[insert]"           # user password
   char_set = "utf8mb4"          # character set
   cusror_type = pymysql.cursors.DictCursor
 
